@@ -1,0 +1,5 @@
+*.env
+*.png
+tmp_result.json
+__pycache__
+fastapi_backend/env

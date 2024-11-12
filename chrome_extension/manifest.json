@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Smart Storage Extension",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "version": "1.0",
+    "permissions": ["contextMenus", "activeTab", "scripting", "tabs"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "host_permissions": ["<all_urls>"]
+}
